@@ -443,7 +443,7 @@ body.popup-show::after {
 }
 .main-page__window {
   margin-left: 25px;
-  background: url(../img/icons/wing-airplane-with-city-bg.jpg);
+  background: url("../img/icons/wing-airplane-with-city-bg.jpg");
   width: 360px;
   height: 451px;
   border: 15px solid #FFFFFF;
@@ -507,7 +507,7 @@ body.popup-show::after {
   width: 100%;
   top: 0;
   left: 0;
-  background-image: url(../img/icons/wing-airplane-with-city-background.jpg);
+  background-image: url("../img/icons/wing-airplane-with-city-background.jpg");
   background-position: right top;
   height: 100%;
   background-size: cover;
