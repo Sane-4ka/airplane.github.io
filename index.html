@@ -1,391 +1,205 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 
 <head>
-	<title>Главная</title>
 	<meta charset="UTF-8">
-	<meta name="format-detection" content="telephone=no">
-	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220213214519">
-	<link rel="shortcut icon" href="favicon.ico">
-	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Верстка «Knives layout»</title>
 </head>
 
 <body>
-	<div class="wrapper">
-		<header class="header">
-			<div class="header__container">
-				<nav hidden class="menu-burger">
-					<button type="button" class="menu-burger__icon icon-menu"><span></span></button>
-					<div class="menu-burger__body">
-						<ul class="menu-burger__list">
-							<li class="menu-burger__item"><a href="" class="menu-burger__link">Home</a></li>
-							<li class="menu-burger__item"><a href="" class="menu-burger__link">Booking</a></li>
-							<li class="menu-burger__item"><a href="" class="menu-burger__link">Private Jet</a></li>
-							<li class="menu-burger__item"><a href="" class="menu-burger__link">Specification</a></li>
-							<li class="menu-burger__item"><a href="" class="menu-burger__link">Luxury Charters</a></li>
-							<li class="menu-burger__item"><a href="" class="menu-burger__link">Membership</a></li>
-						</ul>
-					</div>
-				</nav>
-				<a href="" class="header__logo logo">
-					<img src="img/icons/logo.svg" alt="Airplane logo">
-				</a>
-				<div class="header__menu menu">
-					<button type="button" class="menu__icon icon-menu"><span></span></button>
-					<nav class="menu__body">
-						<ul class="menu__list">
-							<li class="menu__item"><a href="" class="menu__link">Home</a></li>
-							<li class="menu__item"><a href="" class="menu__link">Booking</a></li>
-							<li class="menu__item"><a href="" class="menu__link">Private Jet</a></li>
-							<li class="menu__item"><a href="" class="menu__link">Specification</a></li>
-							<li class="menu__item"><a href="" class="menu__link">Luxury Charters</a></li>
-							<li class="menu__item"><a href="" class="menu__link">Membership</a></li>
-						</ul>
-					</nav>
-				</div>
-				<div class="header__login_btns btns-header">
-					<div class="btns-header__register">
-						<a href="">Register</a>
-					</div>
-					<div class="btns-header__sign-in">
-						<a href="">Sign in</a>
-					</div>
-				</div>
-			</div>
-		</header>
-		<main class="page">
-			<section class="page__main main-page">
-				<div class="main-page__container">
-					<div class="main-page__body body-main">
-						<div class="body-main__text">Enjoy <span>Reserved</span> Overhead Bin Space</div>
-						<a href="" class="body-main__explore explore">
-							<div class="explore__text">Explore Now</div>
-							<div class="explore__icon">
-								<img src="img/icons/arrow-right.svg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="main-page__window"></div>
-				</div>
-				<div class="main-page__background"></div>
-			</section>
-			<section class="flights">
-				<div class="flights__container">
-					<div class="flights__body">
-						<div class="flights__filter filter">
-							<div data-i="trip" class="filter__item">
-								<a href="" class="filter__item_link">Road Trip</a>
-								<div class="filter__item_icon"><img src="img/icons/arrow_drop_down.svg" alt=""></div>
-							</div>
-							<div data-i="type" class="filter__item">
-								<a href="" class="filter__item_link">Flight Type</a>
-								<div class="filter__item_icon"><img src="img/icons/arrow_drop_down.svg" alt=""></div>
-							</div>
-							<div data-i="person" class="filter__item">
-								<a href="" class="filter__item_link">Person</a>
-								<div class="filter__item_icon"><img src="img/icons/arrow_drop_down.svg" alt=""></div>
-							</div>
-						</div>
-						<div class="flights__form form-flights">
-							<div class="form-flights__city city-flights">
-								<div class="city-flights__form city-flights__form_from">
-									<div class="city-flights__form_subtitle subtitle-form">from</div>
-									<div class="city-flights__form_town">lax</div>
-									<div class="city-flights__form_town-full subtitle-form">los angeles intl arpt, los angeles</div>
-								</div>
-								<a href="" class="city-flights__icon">
-									<img src="img/icons/arrows-rechage.svg" alt="replace button">
-								</a>
-								<div class="city-flights__form city-flights__form_to">
-									<div class="city-flights__form_subtitle subtitle-form">to</div>
-									<div class="city-flights__form_town">mia</div>
-									<div class="city-flights__form_town-full subtitle-form">miami intl, miammi</div>
-								</div>
-							</div>
-							<div class="form-flights__date city-flights__form">
-								<div class="form-flights__date_departure departure-date">
-									<div class="departure-date__subtitle subtitle-form">departure</div>
-									<div class="departure-date__date">
-										<div class="departure-date__date_text">Fri 15 Oct</div>
-										<div class="departure-date__date_icon"><img src="img/icons/calendar.svg" alt=""></div>
-									</div>
-									<div class="departure-date__change">
-										<div class="departure-date__change_prev">prev</div>
-										<div class="departure-date__change_next">next</div>
-									</div>
-								</div>
-								<div class="form-flights__date_return departure-date">
-									<div class="departure-date__subtitle subtitle-form">Return</div>
-									<div class="departure-date__date">
-										<div class="departure-date__date_text">Tue 19 Oct</div>
-										<div class="departure-date__date_icon"><img src="img/icons/calendar.svg" alt=""></div>
-									</div>
-									<div class="departure-date__change">
-										<div class="departure-date__change_prev">prev</div>
-										<div class="departure-date__change_next">next</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div href="" class="flights__requirment">
-							<a href="" class="flights__requirment_link">Add Requirements</a>
-						</div>
-						<a href="" class="flights__btn">
-							<div class="flights__btn_text">Block Flights</div>
-							<div class="flights__btn_icon"><img src="img/icons/arrow-right_btn.svg" alt=""></div>
-						</a>
-					</div>
-				</div>
-			</section>
-			<section class="purposes">
-				<div class="purposes__container">
-					<div class="purposes__block privat-purposes">
-						<div class="privat-purposes__title private-jet-maintitle">
-							<h2>Private Jet for Business & Leisure Purposes</h2>
-						</div>
-						<div class="private-jet-block">
-							<div class="jet-block">
-								<div class="private-jet-img">
-									<picture><source srcset="img/icons/plane1.webp"type="image/webp"><img src="img/icons/plane1.jpg" alt="plane"></picture>
-								</div>
-								<div class="private-jet-text">
-									<h3 class="private-jet-title">Private Jet Charter</h3>
-									<div class="private-jet-subtitle">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors</div>
-								</div>
-							</div>
-							<div class="private-jet-bg"></div>
-						</div>
-					</div>
-					<div class="purposes__block business-purposes">
-						<div class="private-jet-block">
-							<div class="jet-block jet-block-business">
-								<div class="private-jet-img">
-									<picture><source srcset="img/icons/plane2.webp"type="image/webp"><img src="img/icons/plane2.jpg" alt="plane"></picture>
-								</div>
-								<div class="block-business-purposes__text private-jet-text">
-									<h3 class="private-jet-title">Business Jet Charter</h3>
-									<div class="private-jet-subtitle">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors</div>
-								</div>
-							</div>
-							<div class="private-jet-bg business-purposes__bg"></div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="specifications">
-				<div class="specifications__container">
-					<div class="specifications__title private-jet-maintitle">
-						<h2>Private Jet Performance and Specifications</h2>
-					</div>
-					<div class="specifications__block">
-						<div class="specifications__block_item block-item-specification">
-							<div class="block-item-specifications">
-								<div class="block-item-specifications__icon">
-									<picture><source srcset="img/icons/seat.webp"type="image/webp"><img src="img/icons/seat.png" alt="seat icon"></picture>
-								</div>
-								<div class="block-item-specifications__title">Luxury And Comfort</div>
-								<div class="block-item-specifications__subtitle">It is a long established fact that a reader will be distracted by the readable</div>
-							</div>
-							<div class="block-item-specifications">
-								<div class="block-item-specifications__icon">
-									<picture><source srcset="img/icons/calendar.webp"type="image/webp"><img src="img/icons/calendar.png" alt="schedule icon"></picture>
-								</div>
-								<div class="block-item-specifications__title">Personal schedule & booking</div>
-								<div class="block-item-specifications__subtitle">It is a long established fact that a reader will be distracted by the readable</div>
-							</div>
-						</div>
-						<div class="specifications__block_img">
-							<picture><source srcset="img/icons/plane.webp"type="image/webp"><img src="img/icons/plane.png" alt="plane"></picture>
-						</div>
-						<div class="specifications__block_item block-item-specification">
-							<div class="block-item-specifications">
-								<div class="block-item-specifications__icon">
-									<picture><source srcset="img/icons/sequrity.webp"type="image/webp"><img src="img/icons/sequrity.png" alt="sequrity icon"></picture>
-								</div>
-								<div class="block-item-specifications__title">SAFETY AND SECURITY</div>
-								<div class="block-item-specifications__subtitle">It is a long established fact that a reader will be distracted by the readable</div>
-							</div>
-							<div class="block-item-specifications">
-								<div class="block-item-specifications__icon">
-									<picture><source srcset="img/icons/captain.webp"type="image/webp"><img src="img/icons/captain.png" alt="captain icon"></picture>
-								</div>
-								<div class="block-item-specifications__title">EXPERIENCED CREW</div>
-								<div class="block-item-specifications__subtitle">It is a long established fact that a reader will be distracted by the readable</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="charters">
-				<div class="charters__container">
-					<div class="charters__title private-jet-maintitle">
-						<h2>Luxury Charters</h2>
-					</div>
-					<div class="charters__block">
-						<div class="block-charters">
-							<div class="block-charters__item">
-								<div class="block-charters__item_img"><picture><source srcset="img/icons/paggio.webp"type="image/webp"><img src="img/icons/paggio.jpg" alt=""></picture></div>
-								<div class="block-charters__item_brand">Piaggio P.180 Avanti</div>
-							</div>
-						</div>
-						<div class="block-charters">
-							<div class="block-charters__item">
-								<div class="block-charters__item_img"><picture><source srcset="img/icons/pilatus.webp"type="image/webp"><img src="img/icons/pilatus.jpg" alt=""></picture></div>
-								<div class="block-charters__item_brand">Pilatus PC-12</div>
-							</div>
-						</div>
-						<div class="block-charters">
-							<div class="block-charters__item">
-								<div class="block-charters__item_img"><picture><source srcset="img/icons/piper.webp"type="image/webp"><img src="img/icons/piper.jpg" alt=""></picture></div>
-								<div class="block-charters__item_brand">Piper pa27 aztec</div>
-							</div>
-						</div>
-						<div class="block-charters">
-							<div class="block-charters__item">
-								<div class="block-charters__item_img"><picture><source srcset="img/icons/raytheon.webp"type="image/webp"><img src="img/icons/raytheon.jpg" alt=""></picture></div>
-								<div class="block-charters__item_brand">Beech BE100 King Air</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="membership">
-				<div class="membership__container">
-					<div class="membership__title private-jet-maintitle">
-						<h2>Enjoy our membership</h2>
-					</div>
-					<div class="membership__block">
-						<div class="membership__price-block price-block membership__price-block_popular">
-							<div class="price-block__text">
-								<div class="price-block__title">Popular</div>
-								<div class="price-block__subtitle">What You’ll Get</div>
-							</div>
-							<div class="price-block__includes price-includes">
-								<div class="price-includes__item">
-									<img src="img/icons/marc-black.svg" alt="" class="price-includes__item_icon">
-									<div class="price-includes__item_text">One-time initiation fee $0</div>
-								</div>
-								<div class="price-includes__item">
-									<img src="img/icons/marc-black.svg" alt="" class="price-includes__item_icon">
-									<div class="price-includes__item_text">Deposit $50k</div>
-								</div>
-								<div class="price-includes__item">
-									<img src="img/icons/marc-black.svg" alt="" class="price-includes__item_icon">
-									<div class="price-includes__item_text">Pricing / rates Dynamic</div>
-								</div>
-								<div class="price-includes__item">
-									<img src="img/icons/marc-black.svg" alt="" class="price-includes__item_icon">
-									<div class="price-includes__item_text">Priority fleet access Yes</div>
-								</div>
-								<div class="price-includes__item">
-									<img src="img/icons/marc-black.svg" alt="" class="price-includes__item_icon">
-									<div class="price-includes__item_text">Guaranteed fleet access No</div>
-								</div>
-							</div>
-							<div class="price-block__total-price"><span>$250</span>/month</div>
-							<a href="" class="price-block__btn">Choose</a>
-						</div>
-						<div class="membership__price-block price-block membership__price-block_business">
-							<div class="price-block__text">
-								<div class="price-block__title price-block__title-white">Business</div>
-								<div class="price-block__subtitle">What You’ll Get</div>
-							</div>
-							<div class="price-block__includes price-includes">
-								<div class="price-includes__item">
-									<img src="img/icons/mark-white.svg" alt="" class="price-includes__item_icon">
-									<div class="price-includes__item_text price-includes__item_text-white">One-time initiation fee $0</div>
-								</div>
-								<div class="price-includes__item">
-									<img src="img/icons/mark-white.svg" alt="" class="price-includes__item_icon">
-									<div class="price-includes__item_text price-includes__item_text-white">Deposit $50k</div>
-								</div>
-								<div class="price-includes__item">
-									<img src="img/icons/mark-white.svg" alt="" class="price-includes__item_icon">
-									<div class="price-includes__item_text price-includes__item_text-white">Pricing / rates Dynamic</div>
-								</div>
-								<div class="price-includes__item">
-									<img src="img/icons/mark-white.svg" alt="" class="price-includes__item_icon">
-									<div class="price-includes__item_text price-includes__item_text-white">Priority fleet access Yes</div>
-								</div>
-								<div class="price-includes__item">
-									<img src="img/icons/mark-white.svg" alt="" class="price-includes__item_icon">
-									<div class="price-includes__item_text price-includes__item_text-white">Guaranteed fleet access No</div>
-								</div>
-							</div>
-							<div class="price-block__total-price price-block__total-price-white"><span>$450</span>/month</div>
-							<a href="" class="price-block__btn air-btn">Choose</a>
-						</div>
-						<div class="membership__price-block price-block membership__price-block_elite">
-							<div class="price-block__text">
-								<div class="price-block__title">Elite</div>
-								<div class="price-block__subtitle">What You’ll Get</div>
-							</div>
-							<div class="price-block__includes price-includes">
-								<div class="price-includes__item">
-									<img src="img/icons/marc-black.svg" alt="" class="price-includes__item_icon">
-									<div class="price-includes__item_text">One-time initiation fee $0</div>
-								</div>
-								<div class="price-includes__item">
-									<img src="img/icons/marc-black.svg" alt="" class="price-includes__item_icon">
-									<div class="price-includes__item_text">Deposit $50k</div>
-								</div>
-								<div class="price-includes__item">
-									<img src="img/icons/marc-black.svg" alt="" class="price-includes__item_icon">
-									<div class="price-includes__item_text">Pricing / rates Dynamic</div>
-								</div>
-								<div class="price-includes__item">
-									<img src="img/icons/marc-black.svg" alt="" class="price-includes__item_icon">
-									<div class="price-includes__item_text">Priority fleet access Yes</div>
-								</div>
-								<div class="price-includes__item">
-									<img src="img/icons/marc-black.svg" alt="" class="price-includes__item_icon">
-									<div class="price-includes__item_text">Guaranteed fleet access No</div>
-								</div>
-							</div>
-							<div class="price-block__total-price"><span>$680</span>/month</div>
-							<a href="" class="price-block__btn">Choose</a>
-						</div>
-					</div>
-					<div class="membership__plane">
-						<picture><source srcset="img/icons/plane-large.webp"type="image/webp"><img src="img/icons/plane-large.png" alt=""></picture>
-					</div>
-				</div>
-			</section>
-		</main>
-		<footer class="footer">
-			<div class="footer__container">
-				<div class="footer__logo">
-					<img src="img/icons/logo-white.svg" alt="">
-				</div>
-				<div class="footer__menu footer-menu">
-					<nav class="footer-menu__body">
-						<ul class="footer-menu__list">
-							<li class="footer-menu__item"><a href="" class="footer-menu__link">SERVICES</a></li>
-							<li class="footer-menu__item"><a href="" class="footer-menu__link">ABOUT US</a></li>
-							<li class="footer-menu__item"><a href="" class="footer-menu__link">NEWS</a></li>
-							<li class="footer-menu__item"><a href="" class="footer-menu__link">CONTACT</a></li>
-						</ul>
-					</nav>
-					<div class="footer-menu__rights">© 2021 Air. All rights reserved.</div>
-				</div>
-			</div>
-		</footer>
-	</div>
-	<div id="callback" aria-hidden="true" class="popup">
-		<div class="popup__wrapper">
-			<div class="popup__content">
-				<button data-close type="button" class="popup__close">Закрыть</button>
-				<div class="popup__text">
-					There were form
-				</div>
-			</div>
+	<div class="rootpage">
+		<h1>Верстка «Knives layout»</h1>
+		<div class="rootpage__info">
+			Особенности проекта
+		</div>
+		<h2>Готовые страницы:</h2>
+		<ol class="rootpage__list">
+			<li><a target="_blank" href="home.html">Главная</a></li>
+		</ol>
+		<h2>Попапы:</h2>
+		<ol class="rootpage__list">
+			<li><a target="_blank" href="home.html#"></a></li>
+		</ol>
+		<div class="rootpage__tnx">
+			<h2>Спасибо за заказ!</h2>
+			<p>Буду рад хорошему отзыву.</p>
+			<p>Обращайтесь еще!</p>
+		</div>
+		<div class="rootpage__contacts">
+			<h2>Мои контакты:</h2>
+			<p>Почта: <a href="mailto:sasha12121299@gmail.com">sasha12121299@gmail.com</a></p>
+			<p>Телефон: <a href="tel:8800800800">8 800 800 800</a></p>
+			<p>Соц. сеть: <a href="">ссылка на соц. сеть</a></p>
 		</div>
 	</div>
-
-
-	<script src="js/app.min.js?_v=20220213214519"></script>
 </body>
+<style>
+	@charset "UTF-8";
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
+
+	*,
+	*::before,
+	*::after {
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+		box-sizing: border-box;
+	}
+
+	html,
+	body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		min-width: 320px;
+		width: 100%;
+		color: rgb(255, 255, 255);
+		background: linear-gradient(45deg, #3b4e44, #dbdbdb);
+		background: no-repeat center / cover url('https://images.unsplash.com/photo-1550242499-b5171f56de56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+		/* background-size: cover; */
+	}
+
+	body {
+		font-family: Montserrat;
+		font-size: 100%;
+		line-height: 1;
+		font-size: 1rem;
+		color: rgb(255, 255, 255);
+	}
+
+	a {
+		text-decoration: underline;
+		color: #fcfcd7
+	}
+
+	a:visited {
+		text-decoration: underline;
+		color: #c0c0c0;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+	ul li {
+		list-style: none;
+	}
+
+	img {
+		vertical-align: top;
+	}
+
+	.wrapper {
+		width: 100%;
+		min-height: 100%;
+		overflow: hidden;
+	}
+
+	.rootpage {
+		padding: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		/* align-items: flex-start; */
+	}
+
+	@media (max-width: 767px) {
+		.rootpage {
+			padding: 30px 15px;
+		}
+	}
+
+	h1 {
+		color: #a68cf0;
+		font-size: 2.5rem;
+		margin: 0px 0px 1.25rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		h1 {
+			font-size: 1.85rem;
+			margin: 0px 0px 1.25rem 0px;
+		}
+	}
+
+	h2 {
+		color: #7a6686;
+		font-size: 1.25rem;
+		margin: 0px 0px 1rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		h2 {
+			font-size: 1.125rem;
+			margin: 0px 0px 1rem 0px;
+		}
+	}
+
+	.rootpage__info {
+		line-height: 140%;
+		margin: 0px 0px 1.5rem 0px;
+	}
+
+	.rootpage__list {
+		margin: 0px 0px 2.25rem 1.25rem;
+	}
+
+	.rootpage__list li:not(:last-child) {
+		margin: 0px 0px 15px 0px;
+	}
+
+	.rootpage__contacts,
+	.rootpage__tnx {
+		border-radius: 200px;
+		padding: 20px 65px;
+		line-height: 140%;
+	}
+
+	@media (max-width: 767px) {
+
+		.rootpage__contacts,
+		.rootpage__tnx {
+			border-radius: 40px;
+			padding: 20px;
+		}
+	}
+
+	.rootpage__contacts {
+		background: linear-gradient(45deg, #83b4bd, #6b778b);
+		transition: all 0.3s ease 0s;
+		border: 1px solid #000;
+	}
+
+	.rootpage__contacts a {
+		color: #e3d9ff;
+	}
+
+	.rootpage__contacts h2 {
+		color: rgb(77, 20, 41);
+	}
+
+	.rootpage__tnx h2 {
+		color: rgb(77, 20, 41);
+	}
+
+	/* .rootpage__contacts:hover {
+            background: rgb(128, 149, 136);
+            border-top-left-radius: 8px;
+        } */
+	.rootpage__tnx {
+		background: linear-gradient(45deg, #b59ec7, #506594);
+		;
+		margin: 0px 0px 1rem 0px;
+		transition: all 0.3s ease 0s;
+		border: 1px solid #000;
+	}
+
+	/* .rootpage__tnx:hover{
+            background: rgb(54, 35, 75);
+            border-top-right-radius: 8px;
+        } */
+</style>
 
 </html>
